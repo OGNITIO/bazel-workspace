@@ -1,2 +1,6 @@
-/bazel-*
+/bazel-bazel-workspace
+/bazel-bin
+/bazel-genfiles
+/bazel-out
+/bazel-testlogs
 .DS_Store

@@ -24,3 +24,18 @@ bind(
     name = "tensorflow",
     actual = "@tensorflow_git//tensorflow:tensorflow_py"
 )
+
+maven_jar(
+    name = "spark-core",
+    artifact = "org.apache.spark:spark-core_2.10:1.5.2",
+)
+
+maven_jar(
+    name = "spark-sql",
+    artifact = "org.apache.spark:spark-sql_2.10:1.5.2",
+)
+
+maven_jar(
+    name = "spark-mlib",
+    artifact = "org.apache.spark:spark-mlib_2.10:1.5.2",
+)
